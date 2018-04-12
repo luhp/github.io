@@ -1,21 +1,138 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <style>
-     .main{
-        text-align: center;
-        background-color: #fff;
-        border-radius: 20px;
-        width: 300px;
-        height: 350px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-    }
-      </style>
-    </head>
-<body>
-  <div class="main"> 内容敬请期待！ </div>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 保持IE永远使用最新的文档模式渲染 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Breakfast Talk</title>
+
+<!-- IE8 html5 和css3 media兼容 -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif] -->
+
+<link rel="stylesheet" type="text/css" href="style/main.css">
+<script type="text/javascript" src="scripts/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+<script type="text/javascript">
+	
+</script>
+
+</head>
+
+<body id="home-page">
+
+	<div id="wrap">
+		<div id="nav">
+			<div id="logo_img"> </div>	
+			<ul>
+				<li id="t-home"> <a href="#">首页</a></li>
+				<li id="t-blog"> <a href="#">Blog</a></li>
+				<li id="t-alist"> <a href="#">文章</a></li>
+				<li id="t-contribute"> <a href="#">回音墙</a></li>
+				<li id="t-about"> <a href="#">关于</a></li>
+			</ul>
+		</div>
+
+		<!--  主体内容 -->
+		<div id="content">
+			<section id="featured">
+				<!--  图片展示区 -->
+				<div id="sliders">
+					<section id="slider-1">
+						<img src="images/huoguo.jpg">
+						<a href="#">
+							<h1></h1>
+							<h2></h2>
+						</a>
+					</section>
+
+					<section id="slider-2" class="sliders_init">
+						<img src="images/zaocan_141543.jpg">
+						<a href="#">
+							<h1></h1>
+							<h2></h2>
+						</a>
+					</section>
+
+					<section id="slider-3" class="sliders_init">
+						<img src="images/191752.jpg">
+						<a href="#">
+							<h1></h1>
+							<h2></h2>
+						</a>
+					</section>
+
+					<section id="slider-4" class="sliders_init">
+						<img src="images/rice.jpg">
+						<a href="#">
+							<h1></h1>
+							<h2></h2>
+						</a>
+					</section>
+				</div>
+				<div id="slider-nav">
+					<ul>
+						<li class="" id="feature-1"><a href="#"><h3>Tastemakers</h3><p>Feast your eyes &amp; get recipes!</p></a></li>
+						<li class="" id="feature-2"><a href="#"><h3>Blog</h3><p>News, how-tos, stories, and more</p></a></li>
+						<li class="activeSlide" id="feature-3"><a href="#"><h3>The A-List</h3><p>Handpicked, absolute favorites</p></a></li>
+						<li class="" id="feature-4"><a href="#"><h3>Contribute</h3><p>We want to hear from you!</p></a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="newsletter">
+				<p>世界上最幸福的莫过于餐桌上家人的欢笑！</p>
+			</section>
+			<section id="recent" class="blog">
+				<article>
+					<a href="#"><img src="images/meterial_1.jpg" class="border" alt="image"><h1>健康的食材</h1></a>
+					<p>多彩丰富的杂粮，混搭在一起，健康营养，富含人体所需的各种矿物质、蛋白粉、碳水化合物，每天早上来一碗，能量满满的...</p>
+					<p class="meta"><time datetime="2016-04-4T02:41-05:00" pubdate="">May 4, 2016</time>  <a href="#">Read »</a></p>
+				</article>
+
+				<article>
+					<a href="#"><img src="images/food_1.jpg" class="border" alt="image">		<h1>五彩茄丁肉</h1></a>
+					<p>看到这有红黄绿搭配的五彩茄子肉沫是不是很有食欲呢？O(∩_∩)O哈哈~~</p>
+					<p class="meta"><time datetime="2015-08-30T08:35-05:00" pubdate="">Aug 30, 2015</time>  <a href="#">Read »</a></p>
+				</article>
+				<article >
+					<a href="#"><img src="images/food_2.jpg" class="border" alt="image">		<h1>拔丝排骨</h1></a>
+					<p>排骨怎么吃？红烧排骨、炖排骨还是排骨汤？什么，这些都吃腻了？那就来换换全新口味吧！还可以纵享丝滑哦...</p>
+					<p class="meta"><time datetime="2016-04-04T09:59-05:00" pubdate="">May 4, 2016</time>  <a href="#">Read »</a></p>
+				</article>
+				
+				
+
+				<article>
+					<a href="#"><img src="images/food_3.jpg" class="border" alt="image">		<h1>海带萝卜汤</h1></a>
+					<p>好喝的海带萝卜汤才是真爱啊…这碗清热解毒、健胃消食、降血脂的汤，无论是外观还是深藏的本质都是令人满满的喜欢...</p>
+					<p class="meta shadow"><time datetime="2016-04-03T09:42-05:00" pubdate="">May 3, 2016</time>  <a href="#">Read »</a></p>
+				</article>
+
+			</section>
+
+		</div>
+
+		<footer role="siteinfo">
+			<p><a href="/legal">Privacy Policy</a> | <a href="legal#terms">Terms of Use</a> | <span id="eeEncEmail_tKstBQKyxZ"><a href="mailto:all.us@163.com">Contact</a></span><script type="text/javascript">/*<![CDATA[*/var l=new Array();var output = '';l[0]='>';l[1]='a';l[2]='/';l[3]='<';l[4]=' 116';l[5]=' 99';l[6]=' 97';l[7]=' 116';l[8]=' 110';l[9]=' 111';l[10]=' 67';l[11]='>';l[12]='\"';l[13]=' 115';l[14]=' 105';l[15]=' 46';l[16]=' 101';l[17]=' 115';l[18]=' 110';l[19]=' 101';l[20]=' 115';l[21]=' 100';l[22]=' 111';l[23]=' 111';l[24]=' 102';l[25]=' 64';l[26]=' 111';l[27]=' 108';l[28]=' 108';l[29]=' 101';l[30]=' 104';l[31]=':';l[32]='o';l[33]='t';l[34]='l';l[35]='i';l[36]='a';l[37]='m';l[38]='\"';l[39]='=';l[40]='f';l[41]='e';l[42]='r';l[43]='h';l[44]='a ';l[45]='<';for (var i = l.length-1; i >= 0; i=i-1){ if (l[i].substring(0, 1) == ' ') output += "&#"+unescape(l[i].substring(1))+";"; else output += unescape(l[i]);}document.getElementById('eeEncEmail_tKstBQKyxZ').innerHTML = output;/*]]>*/</script><br>© 2016 Breakfast Talk, all rights reserved.</p>
+			<div class="social">
+				<ul>
+					<li class="twitter"><a href="#">Twitter</a></li>
+					<li class="facebook"><a href="#">Facebook</a></li>
+					<li class="rss"><a href="#">Subscribe via RSS</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	
 </body>
+
+
 </html>
